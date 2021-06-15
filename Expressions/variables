@@ -1,0 +1,27 @@
+# variable means we assign any thing in container
+#variable are case sensitive
+# An integer assignment
+age = 18
+
+# A floating point
+salary = 123456.78
+
+# A string
+name = "Moheed"
+
+# A boolean
+a = True
+
+# python automatically detect data type
+
+print(age)
+print(salary)
+print(name)
+print(a)
+
+# printing type of variable
+
+print(type(age))
+print(type(name))
+print(type(salary))
+print(type(a))

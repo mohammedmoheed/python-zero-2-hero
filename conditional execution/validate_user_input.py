@@ -1,4 +1,4 @@
-userinput = input('enter a number')
+userinput = input('enter a number : ')
 try:
     val = int(userinput)
 except:
@@ -10,10 +10,12 @@ else:
                                     # if user enetr string it shows not a number instead of error
 
 
-a = 'hello'
+a = input('ehfmjh')
 b = 0
 try:
     b = int(a)
 except:
-    b = -1                  # this code print nothing
+    b = -1 # this code print nothing
+    print('this is not a number')
+
 
